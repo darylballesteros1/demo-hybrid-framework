@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <test-scenario name="Tricentis - Automobile Insurance">
+        <summary>
+            <info desc="08/04/2023 06:23 PM" name="Time Started"/>
+            <info desc="08/04/2023 06:24 PM" name="Time Ended"/>
+            <info desc="0.45 mins" name="Time Elapsed"/>
+            <info desc="chrome 115.0.5790.171" name="Browser"/>
+        </summary>
+        <test-case name="Successful purchase of items">
+            <test-step name="Validate Header Section">
+                <report desc="Navigate to http://sampleapp.tricentis.com/101/" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Verify Header Section Displayed">
+                <report desc="[Automobile] Verify that displayed equals true" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Truck] Verify that displayed equals true" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Motorcycle] Verify that displayed equals true" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Camper] Verify that displayed equals true" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Click the Automobile hyperlink">
+                <report desc="[Automobile] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Automobile] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Update Enter Vehicle Data">
+                <report desc="[Make] Select 'Porsche'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Engine Performance] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Engine Performance] Type &quot;1500&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Date of Manufacture] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Date of Manufacture] Type &quot;10/18/1995&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Number of Seats] Select '2'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Fuel Type] Select 'Petrol'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[List Price] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[List Price] Type &quot;50000&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[License Plate Number] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[License Plate Number] Type &quot;clad123&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Annual Mileage] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Annual Mileage] Type &quot;500&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Click Vehicle Data Next Button">
+                <report desc="[Next] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Next] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Update Enter Insurant Data">
+                <report desc="[First Name] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[First Name] Type &quot;Arya&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Last Name] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Last Name] Type &quot;Stark&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Date of Birth] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Date of Birth] Type &quot;11/20/1995&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Female] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Female] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Address] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Address] Type &quot;Snow&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Country] Select 'Poland'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Zip Code] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Zip Code] Type &quot;1111&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[City] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[City] Type &quot;Winterfell&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Occupation] Select 'Employee'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Speeding] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Speeding] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Click Insurant Data Next Button">
+                <report desc="[Next] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Next] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Update Enter Product Data">
+                <report desc="[Start Date] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Type &quot;12/30/2023&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Insurance Sum] Select '10.000.000,00'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Merit Rating] Select 'Malus 10'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Damage Insurance] Select 'Full Coverage'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Optional Products] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Optional Products] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Courtesy Car] Select 'Yes'" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Click Product Data Next Button">
+                <report desc="[Next] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Next] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Select the Ultimate radiobox">
+                <report desc="[Ultimate] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Ultimate] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Click Price Option Next Button">
+                <report desc="[Next] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Next] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Update Send Quote Page">
+                <report desc="[Start Date] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Type &quot;aryastark@gmail.com&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Type &quot;aryastark&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Type &quot;Arya_08&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Start Date] Type &quot;Arya_08&quot;" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Click Send Button">
+                <report desc="[Send] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+                <report desc="[Send] Click element" status="Passed" timestamp="08/04/2023 06:23 PM"/>
+            </test-step>
+            <test-step name="Validate Sending Email Success">
+                <report desc="[Next] Verify that displayed equals true" status="Passed" timestamp="08/04/2023 06:24 PM"/>
+            </test-step>
+            <test-step name="Click the OK Button">
+                <report desc="[Send] Wait for element to display (10)" status="Passed" timestamp="08/04/2023 06:24 PM"/>
+                <report desc="[Send] Click element" status="Passed" timestamp="08/04/2023 06:24 PM"/>
+            </test-step>
+        </test-case>
+    </test-scenario>
+</root>
