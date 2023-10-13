@@ -2,37 +2,32 @@
 <root>
     <test-scenario name="Guru99- SignInFunctionality">
         <summary>
-            <info desc="10/13/2023 03:23 PM" name="Time Started"/>
-            <info desc="10/13/2023 03:23 PM" name="Time Ended"/>
-            <info desc="0.25 mins" name="Time Elapsed"/>
+            <info desc="10/13/2023 04:21 PM" name="Time Started"/>
+            <info desc="10/13/2023 04:21 PM" name="Time Ended"/>
+            <info desc="0.29 mins" name="Time Elapsed"/>
             <info desc="chrome 117.0.5938.150" name="Browser"/>
         </summary>
         <test-case name="Valid Login in Guru99">
             <test-step>
-                <report desc="Navigate to https://demo.guru99.com/insurance/v1/index.php" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="Navigate to https://demo.guru99.com/insurance/v1/index.php" status="Passed" timestamp="10/13/2023 04:21 PM"/>
             </test-step>
             <test-step name="Step 1: Fillup login form">
-                <report desc="[Email textbox] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Email textbox] Type &quot;test@test.test&quot;" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Password textbox] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Password textbox] Type &quot;1234&quot;" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-            </test-step>
-            <test-step name="Step 2: Click Login">
-                <report desc="[Login Button] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Login Button] Click element" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Email textbox] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 04:21 PM"/>
+                <report desc="[Email textbox] Type &quot;test@test.test&quot;" status="Passed" timestamp="10/13/2023 04:21 PM"/>
+                <report desc="[Password textbox] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 04:21 PM"/>
+                <report desc="[Password textbox] Type &quot;1234&quot;" status="Passed" timestamp="10/13/2023 04:21 PM"/>
             </test-step>
             <test-step name="Step 3: Verify the header">
-                <report desc="[Header] Verify that displayed equals true" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Header] Verify that text equals Broker Insurance WebPage" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Header] Verify that displayed equals true" status="Failed" timestamp="10/13/2023 04:21 PM"/>
+                <report desc="Actual: displayed=false" status="Info"/>
+                <report desc="NoSuchElementException : no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//h2)[1]&quot;}&#10;  (Session info: chrome=117.0.5938.150)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'CBEN-G90MGS3-LX', ip: '192.168.1.44', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5fbd24723dfacf85b469c6e2cc9a3ac9&#10;*** Element info: {Using=xpath, value=(//h2)[1]}" status="Failed" timestamp="10/13/2023 04:21 PM"/>
             </test-step>
             <test-step name="Step 4: Click the Request Quotation Button">
-                <report desc="[Request Quotation Button] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Request Quotation Button] Click element" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Request Quotation Button] Click element" status="Failed" timestamp="10/13/2023 04:21 PM"/>
             </test-step>
             <test-step name="Step 5: Fill up the request quoation form">
-                <report desc="[Header] Select 'At home'" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Yes button] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
-                <report desc="[Yes button] Click element" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Header] Select 'At home'" status="Failed" timestamp="10/13/2023 04:21 PM"/>
+                <report desc="NoSuchElementException : no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@name='0']&quot;}&#10;  (Session info: chrome=117.0.5938.150)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'CBEN-G90MGS3-LX', ip: '192.168.1.44', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5fbd24723dfacf85b469c6e2cc9a3ac9&#10;*** Element info: {Using=xpath, value=//select[@name='0']}" status="Failed" timestamp="10/13/2023 04:21 PM"/>
             </test-step>
         </test-case>
     </test-scenario>
