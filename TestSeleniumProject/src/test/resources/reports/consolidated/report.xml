@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <root>
-    <test-scenario name="Default test">
+    <test-scenario name="Guru99- SignInFunctionality">
         <summary>
-            <info desc="08/03/2023 04:22 PM" name="Time Started"/>
-            <info desc="08/03/2023 04:22 PM" name="Time Ended"/>
-            <info desc="0.00 mins" name="Time Elapsed"/>
+            <info desc="10/13/2023 03:23 PM" name="Time Started"/>
+            <info desc="10/13/2023 03:23 PM" name="Time Ended"/>
+            <info desc="0.25 mins" name="Time Elapsed"/>
+            <info desc="chrome 117.0.5938.150" name="Browser"/>
         </summary>
+        <test-case name="Valid Login in Guru99">
+            <test-step>
+                <report desc="Navigate to https://demo.guru99.com/insurance/v1/index.php" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+            </test-step>
+            <test-step name="Step 1: Fillup login form">
+                <report desc="[Email textbox] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Email textbox] Type &quot;test@test.test&quot;" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Password textbox] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Password textbox] Type &quot;1234&quot;" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+            </test-step>
+            <test-step name="Step 2: Click Login">
+                <report desc="[Login Button] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Login Button] Click element" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+            </test-step>
+            <test-step name="Step 3: Verify the header">
+                <report desc="[Header] Verify that displayed equals true" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Header] Verify that text equals Broker Insurance WebPage" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+            </test-step>
+            <test-step name="Step 4: Click the Request Quotation Button">
+                <report desc="[Request Quotation Button] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Request Quotation Button] Click element" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+            </test-step>
+            <test-step name="Step 5: Fill up the request quoation form">
+                <report desc="[Header] Select 'At home'" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Yes button] Wait for element to display (10)" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+                <report desc="[Yes button] Click element" status="Passed" timestamp="10/13/2023 03:23 PM"/>
+            </test-step>
+        </test-case>
     </test-scenario>
 </root>
