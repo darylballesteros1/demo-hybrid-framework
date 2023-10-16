@@ -4,7 +4,7 @@
   <test name="Test">
     <classes>
       <class name="scenarios.Guru99_ValidLogin"/>
-      <class name="scenarios.TrialScenarios"/>
+      <class name="scenarios.Trialscenario"/>
       <class name="common.DataRepository"/>
     </classes>
   </test> <!-- Test -->
