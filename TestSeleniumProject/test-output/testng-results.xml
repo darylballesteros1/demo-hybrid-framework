@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-13T08:20:57Z" name="Default suite" finished-at="2023-10-13T08:21:26Z" duration-ms="28043">
+  <suite started-at="2023-10-13T08:27:53Z" name="Default suite" finished-at="2023-10-13T08:28:26Z" duration-ms="33207">
     <groups>
     </groups>
-    <test started-at="2023-10-13T08:20:57Z" name="Default test" finished-at="2023-10-13T08:21:26Z" duration-ms="28043">
-      <class name="scenarios.Trialscenario">
-        <test-method is-config="true" signature="startTest(org.testng.ITestContext)[pri:0, instance:[Trialscenario passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:20:58Z" name="startTest" finished-at="2023-10-13T16:21:07Z" duration-ms="9622" status="PASS">
+    <test started-at="2023-10-13T08:27:53Z" name="Default test" finished-at="2023-10-13T08:28:26Z" duration-ms="33207">
+      <class name="scenarios.Guru99_ValidLogin">
+        <test-method is-config="true" signature="startTest(org.testng.ITestContext)[pri:0, instance:[Guru99_ValidLogin passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:27:53Z" name="startTest" finished-at="2023-10-13T16:28:03Z" duration-ms="9738" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6d4c18b8]]>
+                <![CDATA[org.testng.TestRunner@56a63c28]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="testScenario()[pri:0, instance:[Trialscenario passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:21:07Z" name="testScenario" finished-at="2023-10-13T16:21:25Z" duration-ms="17419" status="FAIL">
+        <test-method signature="testScenario()[pri:0, instance:[Guru99_ValidLogin passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:28:03Z" name="testScenario" finished-at="2023-10-13T16:28:13Z" duration-ms="10340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestContext)[pri:0, instance:[Guru99_ValidLogin passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:28:26Z" name="endTest" finished-at="2023-10-13T16:28:26Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56a63c28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- scenarios.Guru99_ValidLogin -->
+      <class name="scenarios.Trialscenario">
+        <test-method signature="testScenario()[pri:0, instance:[Trialscenario passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:28:14Z" name="testScenario" finished-at="2023-10-13T16:28:26Z" duration-ms="11907" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='0']"}
@@ -27,8 +44,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'CBEN-G90MGS3-LX', ip: '192.168.1.44', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fbd24723dfacf85b469c6e2cc9a3ac9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a7003fc5f2e59ce6380eddda7144622
 *** Element info: {Using=xpath, value=//select[@name='0']}]]>
             </message>
             <full-stacktrace>
@@ -38,10 +55,10 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'CBEN-G90MGS3-LX', ip: '192.168.1.44', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fbd24723dfacf85b469c6e2cc9a3ac9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a7003fc5f2e59ce6380eddda7144622
 *** Element info: {Using=xpath, value=//select[@name='0']}
-	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor73.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -91,17 +108,6 @@ Session ID: 5fbd24723dfacf85b469c6e2cc9a3ac9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestContext)[pri:0, instance:[Trialscenario passed=0 failed=0 skipped=0]]" started-at="2023-10-13T16:21:26Z" name="endTest" finished-at="2023-10-13T16:21:26Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6d4c18b8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
       </class> <!-- scenarios.Trialscenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
