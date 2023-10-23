@@ -28,6 +28,10 @@
 				Releases</name>
 			<url>http://repository.springsource.com/maven/bundles/external</url>
 		</repository>
+		<repository>
+			<id>localrepository</id>
+			<url>file://${project.basedir}/libs</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
